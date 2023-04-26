@@ -1,0 +1,45 @@
+#menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 774px;
+	height: 210px;
+	background: url(image/download2.jpg) no-repeat;
+  position: relative;
+   background-attachment: fixed;
+  background-size: cover;
+}
+
+#menu span {
+	display: none;
+	position: absolute;
+}
+
+#menu a{
+	display: none;
+	text-indent: -900%;
+	position: absolute;
+	outline: none;
+}
+
+#menu a:hover{
+	background-position: left bottom;
+
+}
+
+#menu a:hover span{
+display: block;
+
+}
+#menu .home{
+	width: 144px;
+	weight:58px;
+	background:url(image/home.psd) no-repeat;
+}
+
+#menu .home span{
+	width: 86px;
+	weight:14px;
+	background:url(image/home-over.psd) no-repeat;
+}
+
